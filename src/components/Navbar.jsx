@@ -8,7 +8,7 @@ const Navbar = () => {
       className="fixed top-0 w-full z-50 glass px-8 py-4 flex justify-between items-center"
     >
       <h1 className="text-2xl font-bold gradient-text">
-        Ashmith Rohan
+        Personal Portfolio
       </h1>
 
       <ul className="hidden md:flex gap-8 text-sm">

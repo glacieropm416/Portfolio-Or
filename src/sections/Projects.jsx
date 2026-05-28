@@ -81,6 +81,25 @@ const Projects = () => {
             {/* Content */}
             <div className="p-8">
 
+              {/* Project Tag */}
+              <span
+                className="
+                  inline-block
+                  mb-4
+                  px-4
+                  py-2
+                  rounded-full
+                  bg-cyan-500/10
+                  border
+                  border-cyan-400/30
+                  text-cyan-300
+                  text-sm
+                  font-semibold
+                "
+              >
+                {project.tag}
+              </span>
+
               {/* Title */}
               <h3 className="text-2xl font-bold text-white mb-4">
                 {project.title}
@@ -103,10 +122,10 @@ const Projects = () => {
                       py-2
                       rounded-full
                       text-sm
-                      bg-cyan-500/10
+                      bg-purple-500/10
                       border
-                      border-cyan-400/30
-                      text-cyan-300
+                      border-purple-400/30
+                      text-purple-300
                     "
                   >
                     {item}

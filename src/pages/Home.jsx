@@ -4,6 +4,7 @@ import Hero from '../sections/Hero'
 import About from '../sections/About'
 import Skills from '../sections/Skills'
 import Projects from '../sections/Projects'
+import Experience from '../sections/Experience'
 import Timeline from '../sections/Timeline'
 import Certifications from '../sections/Certifications'
 import CodingProfiles from '../sections/CodingProfiles'
@@ -17,6 +18,7 @@ const Home = () => {
       <About />
       <Skills />
       <Projects />
+      <Experience/>
       <Timeline />
       <Certifications />
       <CodingProfiles />
